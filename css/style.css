@@ -1,0 +1,405 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav img {
+    margin-left: 50px;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: center;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+nav a:hover {
+    color: rgb(42, 175, 175);
+    border-bottom: 2px solid rgb(42, 175, 175);
+    background-color: rgba(187, 182, 182, 0.158);
+    box-shadow: 3px 4px 6px 0px;
+}
+
+
+header {
+    margin-top: 0;
+    width: 100%;
+    background-image: url('../img/banner.jpg');
+    display: grid;
+    background-size: cover;
+    grid-template-columns: 1fr;
+    
+}
+
+header h1 {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+header p {
+    margin: 0;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+header .btn {
+    width: 250px;
+    border: 1px solid white;
+    height: 40px;
+    justify-self: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px 0px;
+
+}
+
+header .btn:hover {
+    background-color: rgba(194, 199, 199, 0.432);
+    opacity: .9;
+}
+
+
+
+.icons {
+    margin-top: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 25px;
+    margin-bottom: 50px;
+    
+}
+
+
+.icon-img {
+    height: 75px;
+    width: 75px;
+    color: rgb(42, 175, 175);
+    font-size: 5rem;
+    text-align: center;
+    border: 4px solid rgb(42, 175, 175) ;
+    border-radius: 50%;
+    padding: 25px;
+
+} 
+
+.icon-img:hover {
+    transform: rotate(20deg)
+}
+
+.icons h4 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.icon-btn {
+    width: 150px;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(202, 196, 196);
+    background-color: rgb(42, 175, 175);
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    box-shadow: 3px 4px 6px 0px;
+
+} 
+
+.icon-btn:hover {
+    opacity: 0.7;
+}
+
+.portfolio {
+    background-color: rgb(231, 225, 225);
+    text-align: center;
+}
+
+.portfolio h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: auto;
+    
+}
+
+.portfolio .icon-btn {
+    width: 300px;
+    border: 1px solid rgba(119, 118, 118, 0.466);
+    height: 60px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    color: rgb(150, 141, 141);
+    background-color: rgb(42, 175, 175);
+    text-align: center;
+    font-size: 2rem;
+    border-radius: 10px;
+    font-weight: 200;
+    justify-self: center;
+    box-shadow: 6px 8px 8px 0px;
+}
+
+.portfolio .icon-btn:hover {
+    opacity: 0.5;
+}
+
+
+h3 {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+.team {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    
+}
+
+.team img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+    
+}
+
+.team img:hover {
+    opacity: 0.5;
+}
+
+.team-member {
+padding: 5px;
+justify-content: center;
+text-align: center;
+
+}
+
+.team-member h5 {
+    font-size: 3rem;
+    font-weight: 200;
+    margin: 0%;
+}
+
+.team-member h6 {
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0%;
+}
+
+.team-member p {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.plans {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 100px;
+    background-color: rgb(231, 225, 225);
+    padding: 10%;
+}
+
+
+.plan-class p {
+    font-size: 1.1rem;
+    text-align: center;
+    border-bottom: 1px solid rgb(252, 245, 245);
+    background-color: white;
+    margin: 1px;
+    line-height: 3rem;
+}
+
+.plans h2 {
+    background-color: rgb(82, 88, 84);
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 30px auto;
+    height: 4rem;
+    line-height: 4rem;
+    margin-bottom: 0;
+}
+
+
+.plan-btn {
+    width: 150px;
+    border: .5px solid rgb(15, 15, 15);
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(70, 169, 186);
+    background-color: rgb(138, 145, 145);
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    box-shadow: 6px 8px 8px 0px;
+}
+
+.plan-btn:hover {
+    color: rgb(82, 81, 81);
+}
+
+
+.testmonial {
+    text-align: center;
+    padding: 90px 25%;
+}
+
+.testmonial h4 {
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.testmonial p:nth-child(2) {
+    color: rgba(170, 167, 167, 0.938);   
+}
+
+.testmonial p:nth-child(3) {
+    font-size: 1.3rem;
+    color: gray;
+    font-weight: bold;   
+}
+
+.contact {
+    background-image: url('../img/bg-contato.jpg');
+    color: white;
+    padding-top: 30px;
+    background-size: cover;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 30px;
+}
+
+.contact input {
+    width: 48%;
+}
+
+.contact textarea {
+    width: 98%;
+    margin-top: 15px;
+}
+
+.contact button {
+    float: right;
+    width: 150px;
+    border: .5px solid rgb(15, 15, 15);
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(42, 175, 175);
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    margin-right: 30px;
+    box-shadow: 3px 4px 6px 0px;
+}
+
+.contact button:hover {
+    opacity: 0.9;
+}
+
+
+
+.contact h4 {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.contact p {
+    opacity: 0.9;
+    color: gray;
+}
+
+.contact-icons ion-icon {
+ font-size: 2rem;
+ margin-left: 10px;
+}
+
+.contact-icons ion-icon:nth-child(1) {
+    color: rgb(51, 51, 145);
+}
+
+.contact-icons ion-icon:nth-child(2) {
+    color: rgb(151, 196, 238);
+}
+
+.contact-icons ion-icon:nth-child(3) {
+    color: rgb(138, 9, 9);
+}
+
+
+/* mobile */
+
+
+@media only screen and (max-width: 900px) {
+    nav, .nav-links, header, .plans, .icons, .team, .contact, .info, #portifolio  {
+      grid-template-columns: 1fr;
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    .pictures img {
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .pictures {
+        grid-template-columns: 1fr;
+    }
+
+    .icons p {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .plans {
+        width: 80%;
+    }
+    .plan-class {
+        width: 100%;
+    }
+}
